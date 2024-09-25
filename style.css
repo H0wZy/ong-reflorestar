@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: linear-gradient(329deg, rgba(50, 149, 78, 1) 35%, rgba(18, 236, 80, 1) 100%);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+body.missao {
+    background: linear-gradient(329deg, #455A64 35%, #0F1B21 100%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body.atuacao {
+    background: linear-gradient(329deg, #FF6907 35%, #ea803c 100%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body.contato {
+    background: linear-gradient(329deg, #3c63ea 35%, #3DC2EC 100%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #91f0ac;
+}
+
+.nMissao {
+    border: 1px solid #70858F;
+
+}
+
+.nAtuacao {
+    border: 1px solid #ff8e69;
+
+}
+
+.nContato {
+    border: 1px solid #7e92ff;
+
+}
+
+
+.navCustom {
+    border-radius: 30px;
+    opacity: .8;
+    padding: 8px;
+}
+
+.btnCustom {
+    border-radius: 30px;
+    background-color: #000000;
+    opacity: .8;
+    padding: 10px;
+    width: 6rem;
+    height: auto;
+    border: 0;
+    color: white;
+    transition: .4s;
+}
+
+.btnForm {
+    background-color: #1F509A !important;
+    color: white;
+    transition: all .4s;
+    border: none;
+}
+
+.btnForm:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+
+.btnCustom:hover {
+    opacity: .7;
+    transform: scale(1.03);
+}
+
+.nav-link.active {
+    background-color: #000000;
+    opacity: .8;
+    border-radius: 30px;
+    color: white !important;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex: 300px;
+}
+
+.img1 {
+    margin-right: 100px;
+
+}
+
+.textos h1 {
+    font-size: 52px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.textos p {
+    font-size: 22px !important;
+    color: #e8f8ec;
+    font-weight: 300;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #0D6326;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s;
+}
+
+.circle2 {
+    width: 50px;
+    height: 50px;
+    background-color: #718790;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s;
+}
+
+.circle3 {
+    width: 50px;
+    height: 50px;
+    background-color: #653C28;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s;
+}
+
+.circle4 {
+    width: 50px;
+    height: 50px;
+    background-color: #3071BB;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s;
+}
+
+.arrowLeftMain {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-left: 50px;
+    transition: all .4s;
+}
+
+.arrowLeftMain:hover {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-left: 50px;
+    transform: translateX(-5px);
+    opacity: .8;
+    cursor: pointer;
+}
+
+.arrowRightMain {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 50px;
+    transition: all .4s;
+}
+
+.arrowRightMain:hover {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 50px;
+    transform: translateX(5px);
+    opacity: .8;
+    cursor: pointer;
+}
+
+.arrowRight img {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 25px;
+}
+
+.arrowLeft {
+    rotate: 180deg;
+}
+
+.arrowLeft img {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 25px;
+}
+
+
+form {
+    color: white;
+    width: 90%;
+    height: auto;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+footer {
+    background: linear-gradient(329deg, #202120 35%, #434343 100%);
+    color: #B3B3B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    opacity: .7;
+}
+
+header, main {
+    flex-grow: 1;
+}
