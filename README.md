@@ -25,12 +25,6 @@ Um site responsivo utilizando bootstrap em uma atividade do Senac Londrina Centr
 #### Mobile:
 ![image](https://github.com/user-attachments/assets/8f43d28f-25bd-4cdb-971d-5becc723f70e)
 
-<a>
-
-[CLICANDO AQUI!](https://ong-reflorestar.vercel.app/){:target="_blank"}
-### Acesse o site:
-<a href="https://ong-reflorestar.vercel.app/" target="_blank" rel="noopener noreferrer">Clicando aqui!</a>
-
-
+### Acesse o site: [CLICANDO AQUI!](https://ong-reflorestar.vercel.app/)
 
 ## by: Marcos Junior "H0wZy" Bueno Selzler (@H0wZy) & Samuel "Sal" Amaral (@salgadoles).
