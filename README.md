@@ -1,4 +1,4 @@
-# SITE ONG REFLORESTAR RESPONSIVO UTILIZANDO BOOTSTRAP
+## SITE ONG REFLORESTAR RESPONSIVO UTILIZANDO BOOTSTRAP
 Um site responsivo utilizando bootstrap em uma atividade do Senac Londrina Centro.
 
 ## Home
@@ -25,8 +25,10 @@ Um site responsivo utilizando bootstrap em uma atividade do Senac Londrina Centr
 #### Mobile:
 ![image](https://github.com/user-attachments/assets/8f43d28f-25bd-4cdb-971d-5becc723f70e)
 
-### Acesse o site: [clicando aqui!](https://ong-reflorestar.vercel.app/)
+<a>
 
-[](https://ong-reflorestar.vercel.app/)
+### Acesse o site: <a href="https://ong-reflorestar.vercel.app/" target="_blank" rel="noopener noreferrer">Clicando aqui!</a>
 
-# by: Marcos Junior "H0wZy" Bueno Selzler (@H0wZy) & Samuel "Sal" Amaral (@salgadoles).
+
+
+## by: Marcos Junior "H0wZy" Bueno Selzler (@H0wZy) & Samuel "Sal" Amaral (@salgadoles).
