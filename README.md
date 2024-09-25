@@ -27,7 +27,9 @@ Um site responsivo utilizando bootstrap em uma atividade do Senac Londrina Centr
 
 <a>
 
-### Acesse o site: <a href="https://ong-reflorestar.vercel.app/" target="_blank" rel="noopener noreferrer">Clicando aqui!</a>
+[CLICANDO AQUI!](https://ong-reflorestar.vercel.app/){:target="_blank"}
+### Acesse o site:
+<a href="https://ong-reflorestar.vercel.app/" target="_blank" rel="noopener noreferrer">Clicando aqui!</a>
 
 
 
